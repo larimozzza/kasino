@@ -1,0 +1,162 @@
+body {
+    margin: 0 auto;
+    width: 1920px;
+}
+.column {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.card {
+    overflow: hidden;
+    width: 618px;
+    height: 989px;
+    background-image: url("../img/карта.svg");
+}
+.woman {
+    width: 625px;
+    height: 1086px;
+    animation: scale .5s ease alternate infinite;
+    animation-play-state: running;
+}
+.woman:hover {
+    animation-play-state: paused;
+}
+@keyframes scale {
+    0% {
+        transform: scale(1, 1);
+      }
+      100% {
+        transform: scale(-1, 1);
+      }
+}
+.lines {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: 594px;
+    height: 992px;
+    background-image: url("../img/точки.svg");
+}
+.flow1 {
+    position: absolute;
+    transform: scale(1);
+}
+.flow1:hover {
+    transform: scale(1.15);
+}
+.flow2 {
+    position: absolute;
+    top: 58px;
+    transform: scale(1);
+}
+.flow2:hover {
+    transform: scale(1.15);
+}
+.heart {
+    width: 701px;
+    height: 1088px;
+    background-image: url("../img/сетка.svg");
+}
+.beat {
+    position: relative;
+    left: -20px;
+    animation: beat .4s ease alternate infinite;
+    z-index: 1;
+}
+.beat:hover {
+    animation-play-state: paused;
+}
+@keyframes beat{
+    0% {
+        transform: scale(.9);
+      }
+      100% {
+        transform: scale(1.1);
+      }
+}
+
+.column2 {
+    position: relative;
+    bottom: 354px;
+    width: 100%;
+}
+.cubes_and_lip {
+    display: flex;
+    width: 1920px;
+    height: 1292px;
+    background-image: url("../img/spot_and_kiss.svg");
+}
+.cubes {
+    display: flex;
+    width: 1220px;
+    height: 929px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 202px;
+    padding-left: 10px;
+}
+.top_line {
+    display: flex;
+    padding-left: 210px;
+}
+.middle_line {
+    display: flex;
+    width: 607px;
+    flex-direction: row;
+    margin-left: 20px;
+    justify-content: space-around;
+}
+.bottom_line {
+    display: flex;
+    width: 1220px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.eye {
+    width: 306px;
+    height: 296px;
+    background-image: url("../img/eye.png");
+    background-position: -306px;
+    animation: eyes .5s steps(1) infinite;
+}
+.eye:hover {
+    animation-play-state: paused;
+}
+@keyframes eyes {
+    0% {background-position: 0 0;}
+    50% { background-position: -306px 0;}
+}
+.lips {
+    display: flex;
+    width: 570px;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.top_lip {
+    position: relative;
+    width: 570px;
+    height: 173px;
+    background-image: url('../img/verhnayy.png');
+    top: 174px;
+    left: 49px;
+    z-index: 1;
+}
+.heart9 {
+    position: relative;
+    width: 125px;
+    height: 117px;
+    background-image: url('../img/heart9.svg');
+    bottom: 10px;
+}
+.bottom_lip {
+    position: relative;
+    width: 570px;
+    height: 279px;
+    background-image: url('../img/nizhnayy.png');
+    top: 42px;
+    left: 49px;
+}
