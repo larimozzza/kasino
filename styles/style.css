@@ -108,6 +108,7 @@ body {
 }
 .cubes_and_lip {
     display: flex;
+    overflow: hidden;
     width: 100vw;
     height: 68vw;
     background-image: url("../img/spot_and_kiss.svg");
@@ -197,7 +198,6 @@ body {
     }
 .hearts {
     display: flex;
-    overflow: hidden;
     align-content: flex-end;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -577,7 +577,7 @@ animation: wohand 3s ease alternate infinite;
       
 .line1 {
 overflow: hidden;
-width: 7.5vw;
+width: 7.9vw;
 height: 44.3vw;
 background-image: url('../img/1line.svg');
 background-repeat: no-repeat;
@@ -590,7 +590,7 @@ height: 64.3vw;
 background-image: url('../img/arrows1.svg');
 background-repeat: no-repeat;
 background-size: cover;
-margin-left: 0.73vw;
+margin-left: 1vw;
 animation: arrows1 .3s linear infinite;
 }
 .arrows1:hover {
@@ -623,7 +623,7 @@ margin-left: 1vw;
 }
 .line2 {
 overflow: hidden;
-width: 7.5vw;
+width: 7.9vw;
 height: 44.3vw;
 background-image: url('../img/2line.svg');
 background-repeat: no-repeat;
@@ -637,7 +637,7 @@ background-image: url('../img/arrows2.svg');
 background-repeat: no-repeat;
 background-size: cover;
 margin-top: -19.6vw;
-margin-left: 0.73vw; 
+margin-left: 1vw; 
 animation: arrows2 .3s linear infinite;  
 }
 .arrows2:hover {
