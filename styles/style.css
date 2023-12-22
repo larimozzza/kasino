@@ -22,6 +22,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.queen{
+    width: 37.57vw;
+}
 .woman {
     width: 32.8vw;
     height: 57vw;
@@ -49,12 +52,18 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.zigzag {
+    width: 32.7vw;
+}
 .flow1 {
     position: absolute;
     transform: scale(1);
 }
 .flow1:hover {
     transform: scale(1.15);
+}
+.zigzag2 {
+    width: 21.2vw;
 }
 .flow2 {
     margin-top: 58px;
@@ -70,9 +79,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.serdce {
+    width: 30.47vw;
+}
 .beat {
     position: relative;
-    left: -1px;
+    width: 30.47vw;
+    left: 4vw;
     animation: beat .4s ease alternate infinite;
     z-index: 1;
 }
@@ -110,6 +123,9 @@ body {
     padding-top: 10.6vw;
     padding-left: 0.52vw;
 }
+.cube1, .cube2, .cube3, .cube4, .cube5, .cube6{
+    width: 15vw;
+}
 .top_line {
     display: flex;
     padding-left: 11vw;
@@ -128,7 +144,7 @@ body {
     justify-content: space-between;
 }
 .eye {
-    width: 15.8vw;
+    width: 15.3vw;
     height: 15.57vw;
     background-image: url("../img/eye.png");
     background-repeat: no-repeat;
@@ -141,7 +157,7 @@ body {
 }
 @keyframes eyes {
     0% {background-position: 0 0;}
-    50% { background-position: -16vw 0;}
+    50% { background-position: -15.4vw 0;}
 }
 .lips {
     display: flex;
@@ -181,6 +197,7 @@ body {
     }
 .hearts {
     display: flex;
+    overflow: hidden;
     align-content: flex-end;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -491,6 +508,9 @@ left: 9.47vw;
 }
 .rotates:hover ~ .ball {
     animation-play-state: paused;
+}
+.little {
+    width: 1.8vw;
 }
 .ball {
     position: absolute;
