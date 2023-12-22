@@ -19,6 +19,8 @@ body {
     width: 32.3vw;
     height: 52vw;
     background-image: url("../img/карта.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .woman {
     width: 32.8vw;
@@ -44,6 +46,8 @@ body {
     width: 31.2vw;
     height: 52.2vw;
     background-image: url("../img/точки.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .flow1 {
     position: absolute;
@@ -63,6 +67,8 @@ body {
     width: 36.8vw;
     height: 57.2vw;
     background-image: url("../img/сетка.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .beat {
     position: relative;
@@ -92,6 +98,8 @@ body {
     width: 100vw;
     height: 68vw;
     background-image: url("../img/spot_and_kiss.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .cubes {
     display: flex;
@@ -123,6 +131,8 @@ body {
     width: 15.8vw;
     height: 15.57vw;
     background-image: url("../img/eye.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: -16vw;
     animation: eyes .5s steps(1) infinite;
 }
@@ -145,6 +155,8 @@ body {
     width: 30vw;
     height: 9vw;
     background-image: url('../img/verhnayy.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     top: 9vw;
     left: 2.57vw;
     z-index: 1;
@@ -177,7 +189,9 @@ body {
     position: relative;
     width: 7.79vw;
     height: 6.68vw;
-    background-image: url('../img/heart2.svg'); 
+    background-image: url('../img/heart2.svg');
+    background-repeat: no-repeat;
+    background-size: cover; 
     right: 10.7vw;
     top: 20.7vw;
     animation: heart1 2s ease infinite;
@@ -205,6 +219,8 @@ body {
     width: 6.1vw;
     height: 6.26vw;
     background-image: url('../img/heart1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
     right: 17.9vw;
     top: 14.8vw;
     animation: heart2 2.5s ease infinite;
@@ -232,6 +248,8 @@ body {
     width: 6.1vw;
     height: 6.26vw;
     background-image: url('../img/heart3.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
     right: 24.1vw;
     top: 8.1vw;
     animation: heart3 4s ease infinite;
@@ -259,6 +277,8 @@ body {
     width: 6.47vw;
     height: 6.26vw;
     background-image: url('../img/heart4.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
     right: 8.8vw;
     top: 0.63vw;
     animation: heart4 2s ease infinite;
@@ -286,6 +306,8 @@ body {
     width: 6.1vw;
     height: 6.26vw;
     background-image: url('../img/heart5.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
     right: 19.3vw;
     bottom: 4.9vw;
     animation: heart5 3s ease infinite;
@@ -313,6 +335,8 @@ body {
     width: 6.36vw;
     height: 6.26vw;
     background-image: url('../img/heart6.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
     right: 6.8vw;
     bottom: 11.57vw;
     animation: heart6 3.5s ease infinite;
@@ -340,6 +364,8 @@ body {
     width: 6.57vw;
     height: 6.1vw;
     background-image: url('../img/heart7.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
     right: 14.3vw;
     bottom: 17.7vw;
     animation: heart7 4s ease infinite;
@@ -367,6 +393,8 @@ body {
     width: 6.57vw;
     height: 6.1vw;
     background-image: url('../img/heart8.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
     right: 21.2vw;
     bottom: 21.9vw;
     animation: heart8 2s ease infinite;
@@ -394,6 +422,8 @@ body {
     width: 6.57vw;
     height: 6.1vw;
     background-image: url('../img/heart9.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
     bottom: 28vw;
     right: 14vw;
     animation: heart9 3s ease infinite;
@@ -421,6 +451,8 @@ body {
     width: 30vw;
     height: 14.68vw;
     background-image: url('../img/nizhnayy.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     top: 2.2vw;
     left: 2.57vw;
     animation: bottom_lip .4s linear alternate infinite;
@@ -452,6 +484,8 @@ position: absolute;
 width: 44vw;
 height: 43.5vw;
 background-image: url('../img/roulette.svg');
+background-repeat: no-repeat;
+background-size: cover;
 bottom: 21.2vw;
 left: 9.47vw;
 }
@@ -488,12 +522,16 @@ overflow: hidden;
 width: 30vw;
 height: 44.3vw;
 background-image: url('../img/green.svg');
+background-repeat: no-repeat;
+background-size: cover;
 }
 .wohand{
 display: flex;
 width: 49vw;
 height: 12.6vw;
 background-image: url('../img/wohand.svg');
+background-repeat: no-repeat;
+background-size: cover;
 margin-top: 14.3vw;
 margin-left: -49vw;
 animation: wohand 3s ease alternate infinite;
@@ -522,12 +560,16 @@ overflow: hidden;
 width: 7.5vw;
 height: 44.3vw;
 background-image: url('../img/1line.svg');
+background-repeat: no-repeat;
+background-size: cover;
 }
 .arrows1{
 display: flex;
 width: 6vw;
 height: 64.3vw;
 background-image: url('../img/arrows1.svg');
+background-repeat: no-repeat;
+background-size: cover;
 margin-left: 0.73vw;
 animation: arrows1 .3s linear infinite;
 }
@@ -545,13 +587,17 @@ animation: arrows1 .3s linear infinite;
 .blue_heart {
 width: 25vw;
 height: 44.3vw;
-background-image: url('../img/blue.svg'); 
+background-image: url('../img/blue.svg');
+background-repeat: no-repeat;
+background-size: cover; 
 }
 .brok{
 display: flex;
 width: 23vw;
 height: 19.38vw;
 background-image: url('../img/brok.svg');
+background-repeat: no-repeat;
+background-size: cover;
 margin-top: 10.9vw;
 margin-left: 1vw;
 }
@@ -560,12 +606,16 @@ overflow: hidden;
 width: 7.5vw;
 height: 44.3vw;
 background-image: url('../img/2line.svg');
+background-repeat: no-repeat;
+background-size: cover;
 }
 .arrows2{
 display: flex;
 width: 6vw;
 height: 64.9vw;
 background-image: url('../img/arrows2.svg');
+background-repeat: no-repeat;
+background-size: cover;
 margin-top: -19.6vw;
 margin-left: 0.73vw; 
 animation: arrows2 .3s linear infinite;  
@@ -586,12 +636,16 @@ width: 30vw;
 height: 44.3vw;
 overflow: hidden;
 background-image: url('../img/red.svg');
+background-repeat: no-repeat;
+background-size: cover;
 }
 .manhand {
 display: flex;
 width: 48.7vw;
 height: 14.5vw;
 background-image: url('../img/manhand.svg');
+background-repeat: no-repeat;
+background-size: cover;
 margin-top: 14.3vw; 
 margin-left: 29.8vw;
 animation: manhand 3s ease alternate infinite;
@@ -626,11 +680,15 @@ animation: manhand 3s ease alternate infinite;
     width: 100vw;
     height: 46.6vw;
     background-image: url('../img/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .flower {
     width: 47.47vw;
     height: 56.3vw;
     background-image: url('../img/flower.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
     animation: flower 3s linear infinite;
 }
 @keyframes flower {
@@ -642,6 +700,8 @@ animation: manhand 3s ease alternate infinite;
     width: 34.8vw;
     height: 33.47vw;
     background-image: url('../img/shadow.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
     top: 10.89vw;
     left: 6.9vw;
     animation: shadow 4s linear alternate infinite;
