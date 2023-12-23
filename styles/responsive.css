@@ -1,0 +1,206 @@
+@media only screen and (max-width:768px) and (orientation: portrait){
+    .roulette {
+        display: none;
+    }
+}
+@media only screen and (max-width:414px) and (orientation: portrait){
+    .column {
+        display: block;
+    }
+    .queen, .card, .woman {
+        width: 100vw;
+        height: 159vw; 
+    }
+    .lines {
+        width: 100vw;
+        height: 159vw; 
+    }
+    .zigzag {
+        width: 107vw;
+    }
+    .zigzag2 {
+        width: 80vw; 
+    }
+    .heart {
+        width: 100vw;
+        height: 159vw;
+    }
+    .serdce {
+        width: 85vw;
+        margin-left: 2vw;
+        margin-top: 10vw;
+    }
+    .column2 {
+        bottom: auto;
+    }
+    .cubes_and_lip {
+        width: 100vw;
+        height: 75.8vw;
+        background-image: url('../img/greenspots.svg');
+        margin-bottom: 27vw;
+    }
+    .cubes {
+        width: 99vw;
+        height: 73vw;
+        margin-top: -7.5vw;
+        margin-left: 1vw;
+    }
+    .middle_line {
+        width: 48vw;
+    }
+    .eye {
+        width: 22.68vw;
+        height: 23vw;
+        animation: eyes .5s steps(1) infinite;
+    }
+    @keyframes eyes {
+        0% {
+            background-position: 0 0;
+        }
+        
+        50% {
+            background-position: -22.4vw 0;
+        }
+    }
+    .bottom_line {
+        width: 95vw;
+    }
+    .cube1, .cube2, .cube3, .cube4, .cube5, .cube6{
+        width: 22.68vw;
+    }
+    .lips {
+        display: none;
+    }
+    .hearts {
+        display: none;
+    }
+    .column3 {
+        display: block;
+    }
+    .female{
+        width: 100vw;
+        height: 100vw;
+        background-image: url('../img/phoneback.svg');
+    }
+    .wohand {
+        width: 52vw;
+        height: 172.6vw;
+        background-image: url('../img/phonearmw.svg');
+        margin-top: -172.7vw;
+        margin-left: 22vw;
+        animation: wohand 3s ease alternate infinite
+    }
+    @keyframes wohand {
+        0% {
+            transform: translate(0vw, 0vw);
+        }
+        
+        25% {
+            transform: translate(0vw, 98vw);
+        }
+        50% {
+            transform: translate(16vw, 56vw);
+        }
+        75% {
+            transform: translate(-22vw, 70vw);
+        }
+        100% {
+            transform: translate(19.8vw, -10.9vw);
+        }
+    }
+    .slot {
+        width: 100vw;
+        height: 116.58vw; 
+    }
+    .line1 {
+        width: 18.5vw;
+        height: 116.58vw;
+    }
+    .arrows1 {
+        width: 13.3vw;
+        height: 197.2vw;
+        animation: arrows1 .3s linear infinite;
+    }
+    @keyframes arrows1 {
+        0% {
+            transform: translateY(0);
+        }
+        
+        100% {
+            transform: translateY(-9.1vw);
+        }
+    }
+    .blue_heart{
+        width: 86.8vw;
+        height: 116.58vw;
+    }
+    .line2 {
+        width: 18.5vw;
+        height: 116.58vw;
+    }
+    .brok{
+        width: 58.5vw;
+        height: 48.8vw;
+        margin-top: 34vw;
+        margin-left: 6vw;
+    }
+    .arrows2 {
+        width: 13.3vw;
+        height: 197.2vw;
+        animation: arrows2 .3s linear infinite;
+    }
+    @keyframes arrows2 {
+        0% {
+            transform: translateY(0);
+        }
+        
+        100% {
+            transform: translateY(9.1vw);
+        }
+    }
+    .male {
+        width: 100vw;
+        height: 100vw;
+        background-image: url('../img/phoneback2.svg'); 
+    }
+    .manhand {
+        width: 59.5vw;
+        height: 180.5vw ;
+        background-image: url('../img/phonearmmm.svg');
+    }
+    @keyframes manhand {
+        0% {
+            transform: translate(0vw, 0vw);
+        }
+        25% {
+            transform: translate(-32.1vw, 6.6vw);
+        }
+        50% {
+            transform: translate(-22.6vw, 37.1vw);
+        }
+        75% {
+            transform: translate(9vw, -14.7vw);
+        }
+        100% {
+            transform: translate(-19.8vw, 83.89vw);
+        }
+    }
+    .flower {
+        display: none; 
+    }
+    .shadow {
+        display: none;
+    }
+    .background {
+        width: 100vw;
+        height: 123.4vw;
+        background-image: url('../img/smak.svg');
+        margin-top: -33vw;
+    }
+    .game {
+        font-size: 19.2vw;
+        line-height: 1.3;
+        margin-top: 44.26vw;
+        margin-left: 3vw;
+    }
+}
