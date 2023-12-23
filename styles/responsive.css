@@ -2,6 +2,9 @@
     .roulette {
         display: none;
     }
+    .tabl {
+        display: none;
+    }
 }
 @media only screen and (max-width:414px) and (orientation: portrait){
     .column {
